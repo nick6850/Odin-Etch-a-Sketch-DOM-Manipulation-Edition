@@ -1,0 +1,15 @@
+
+
+#canvas {
+    border: red 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+
+}
+
+#canvas > div {
+    margin: 0px;
+}
