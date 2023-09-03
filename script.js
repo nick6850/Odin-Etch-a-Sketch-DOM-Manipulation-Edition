@@ -4,7 +4,10 @@ function create_grid(num) {
     for (let index = 0; index < num ** 2; index++) {
         let new_div = document.createElement('div')
         new_div.addEventListener('mouseover', () => {
-            new_div.style.background = 'black';
+            color1 = Math.floor((Math.random() * 255)) + 1
+            color2 = Math.floor((Math.random() * 255)) + 1
+            color3 = Math.floor((Math.random() * 255)) + 1 
+            new_div.style.background = `rgb(${color1}, ${color2}, ${color3})`;
         } )
 
         new_div.style.border = '1px black solid'
@@ -16,6 +19,7 @@ function create_grid(num) {
 }
 
 
+create_grid(16)
 
 
 

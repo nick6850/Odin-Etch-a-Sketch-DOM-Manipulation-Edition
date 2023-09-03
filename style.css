@@ -1,13 +1,19 @@
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 #canvas {
-    border: red 1px solid;
     display: flex;
     flex-wrap: wrap;
     height: 600px;
     width: 600px;
     flex-direction: column;
-
+    margin-bottom: 10px;
 }
 
 #canvas > div {
